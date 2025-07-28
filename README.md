@@ -244,7 +244,7 @@ chmod +x scripts/test.sh
 │   └── test_bench.sh                    # Custom test-bench execution for multiple PDFs
 ├── preload_model.py                     # CLI to preload MiniLM model for offline use
 ├── run.py                               # CLI entrypoint for Round1A & Round1B
-├── Dockerfile                           # Docker setup (CPU-only, lightweight)
+├── Dockerfile                           # Docker setup (For both CPU and GPU but for now work on the CPU, lightweight)
 ├── docker-compose.yml                   # Optional: for volume mapping & isolation
 ├── requirements.txt                     # Python dependencies
 ├── .gitignore                           # Ignored files/folders

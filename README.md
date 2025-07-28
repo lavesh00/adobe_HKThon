@@ -37,7 +37,7 @@ This repository contains the complete **Solution** for the **Adobe India Hackath
 docker build -t adobe-hackathon .
 ```
 
-#### ▶️ Run Inside Docker
+#### ▶️ Run Inside Docker try different terminal if you face error
 
 ##### Round 1A:
 

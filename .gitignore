@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# Local input/output and temp files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+.DS_Store
+
+# PyCharm / VSCode / Jupyter
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Model cache directories (e.g., Hugging Face, Transformers, Torch)
+~/.cache/
+~/.huggingface/
+~/.torch/
+~/.local/
+
+# Docker-related
+*.pid
+*.tar
+docker-compose.override.yml
+
+# OS/Editor/System
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.orig
+*.rej
+
+# Mac/Linux
+*.DS_Store
+.cache/
+.logs/
+
+# Output JSON
+*.json
+!sample.json
+
+# Environment + secrets
+.env.*
+token.txt
+hf_token.txt
+
+# __temp__ or backup folders
+**/__temp__/
+**/backup/
+

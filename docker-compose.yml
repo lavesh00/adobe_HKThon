@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  adobe-hackathon:
+    build: .
+    container_name: adobe_hackathon_app
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
+    working_dir: /app
+    entrypoint: ["python", "run.py"]
+    network_mode: "none"
